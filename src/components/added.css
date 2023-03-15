@@ -1,0 +1,136 @@
+.Craft{
+    width: 800px;
+    height: 640px;
+    background-color: #151030;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+}
+.CraftContent{
+    text-align: center;
+}
+.CraftContent button{
+    margin-top: 15px;
+    width: 120px;
+    height: 30px;
+    background: inherit;
+    cursor: pointer;
+    border:1px solid white;
+}
+.CraftContent button:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.4s;
+}
+.CraftModal, .LoginModal, .RegistModal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.CraftModalContent, .LoginMKodalContent , .RegistModalContent{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #151030;
+    width: 800px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LoginMKodalContent form, .RegistModalContent form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#Email, #password{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    background: inherit;
+    border: 1px solid white;
+}
+.RegistModalContent input{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    background: inherit;
+    border: 1px solid white;
+}
+.LoginMKodalContent h3{
+    margin-bottom: 25px;
+}
+.CraftModal.active, .LoginModal.active, .RegistModal.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.loginButton, .registButton{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    background: inherit;
+}
+.loginButton:hover, .registButton:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.4s;
+}
+.RegistModalContent{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #151030;
+    width: 800px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.RegistModal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.RegistModalContent{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #151030;
+    width: 800px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.RegistModalContent form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
